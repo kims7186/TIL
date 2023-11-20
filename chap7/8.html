@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>prac7-08</title>
+    <style>
+        div{
+            display:inline-block;
+            width:150px;
+            padding:10px;
+        }
+    </style>
+</head>
+<body>
+    <h3>16개의 랜덤한 색 만들기</h3>
+    <hr>
+    <script>
+    let colors=[];
+    for(let i=0;i<16;i++){
+        let r = Math.floor(Math.random()*256);
+        let g = Math.floor(Math.random()*256);
+        let b = Math.floor(Math.random()*256);
+        colors[i]="rgb()"+r+","+g+","+b+")";
+    }
+    </script>
+
+</body>
+
+</html>

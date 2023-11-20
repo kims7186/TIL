@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>prac7-02</title>
+</head>
+
+<body>
+    <h1>정수 5개 입력받아 역순으로 출력</h1>
+    <hr>
+    <script>
+        let nums = new Array();
+        for (let i = 0; i < 5; i++) {
+            let p = prompt("정수 입력");
+            nums[i] = parseInt(p);
+        }
+        document.write("<p>입력된 수의 배열</p>");
+        for (let i = 0; i < 5; i++) {
+            document.write(nums[i] + "  ");
+        }
+        document.write("<hr>");
+
+        nums.reverse();
+
+        document.write("<p>역순으로 재정렬 배열</p>");
+        for (let i = 0; i < 5; i++) {
+            document.write(nums[i] + "  ");
+        }
+        document.write("<hr>");
+    </script>
+</body>
+
+</html>

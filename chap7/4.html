@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>prac7-04</title>
+</head>
+
+<body>
+    <h3>일요일은 pink, 다른 요일은 gold 배경</h3>
+    <hr>
+    <script>
+        let today = new Date();
+        if (today.getDay() == 0) {
+            document.body.style.backgroundColor = "pink";
+        }
+        else document.body.style.backgroundColor = "gold";
+        var days=["일","월","화","수","목","금","토"];
+        document.write("오늘 : ");
+        document.write(today.getDate() + "일, ");
+        document.write(days[today.getDay()] + "요일");        
+    </script>
+</body>
