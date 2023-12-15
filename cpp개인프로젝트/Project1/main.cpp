@@ -6,6 +6,7 @@
 #include <fstream>
 #include "Formation.h"
 #include "Player.h"
+#include "FunctionManager.h"
 
 using namespace std;
 
@@ -149,8 +150,8 @@ void loadFormationsInfo(vector<Formation> &formations) {
 
 void PlayerMenu() {
   cout << "\n\n선수 정보 입력/수정/삭제 화면 입니다. \n\n";
-  Player player;
-  player.GetInformation(players);  //현재 플레이어 정보 출력
+  
+  GetInformation(players);  //현재 플레이어 정보 출력
   cout << "메뉴를 선택해주세요.\n\n";
   cout << "0.메인으로 돌아가기 \n";
   cout << "1.선수 정보 입력\n";
@@ -165,15 +166,15 @@ void PlayerMenu() {
       DisplayMenu();  //메인 메뉴로 돌아갑니다
       break;
     case 1:
-      player.InsertPlayer(players);
+      InsertPlayer(players);
       PlayerMenu();
       break;
     case 2:
-      player.EditPlayer(players);
+      EditPlayer(players);
       PlayerMenu();
       break;
     case 3:
-      player.DeletePlayer(players);
+      DeletePlayer(players);
       PlayerMenu();
       break;
     default:
@@ -184,8 +185,8 @@ void PlayerMenu() {
 
 void FormationMenu() {
   cout << "\n\n포메이션 정보 입력/수정/삭제 화면 입니다. \n\n";
-  Formation formation;
-  formation.DisplayFormation(formations);  //현재 플레이어 정보 출력
+ 
+  DisplayFormation(formations);  //현재 플레이어 정보 출력
   cout << "메뉴를 선택해주세요.\n\n";
   cout << "0.메인으로 돌아가기 \n";
   cout << "1.포메이션 정보 입력\n";
@@ -200,14 +201,14 @@ void FormationMenu() {
       DisplayMenu();  //메인 메뉴로 돌아갑니다
       break;
     case 1:
-      formation.InsertFormation(formations);
+      InsertFormation(formations);
       FormationMenu();
       break;
     case 2:
-      formation.EditFormation(formations);
+      EditFormation(formations);
       FormationMenu();
     case 3:
-      formation.DeleteFormation(formations);
+      DeleteFormation(formations);
       FormationMenu();
       break;
     default:

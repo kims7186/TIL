@@ -1,0 +1,229 @@
+﻿  Formation.cpp
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(5,10): error C3646: 'formation_name': 알 수 없는 재정의 지정자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(5,24): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(10,13): error C2061: 구문 오류: 식별자 'string'
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(10,12): error C2535: 'Formation::Formation(void)': 멤버 함수를 이미 정의했거나 선언했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(9): message : 'Formation::Formation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.cpp(11,7): error C2614: 'Formation': 멤버 초기화가 잘못되었습니다. 'formation_name'이(가) 기본 또는 멤버가 아닙니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.cpp(13,36): error C2511: 'Formation::Formation(std::string,int,int,int)': 오버로드된 멤버 함수가 'Formation'에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(3): message : 'Formation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.cpp(14,3): error C2671: 'Formation::{ctor}': 정적 멤버 함수에 'this' 포인터가 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.cpp(15,3): error C2671: 'Formation::{ctor}': 정적 멤버 함수에 'this' 포인터가 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.cpp(16,3): error C2671: 'Formation::{ctor}': 정적 멤버 함수에 'this' 포인터가 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.cpp(17,3): error C2671: 'Formation::{ctor}': 정적 멤버 함수에 'this' 포인터가 없습니다.
+  FunctionManager.cpp
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(5,10): error C3646: 'formation_name': 알 수 없는 재정의 지정자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(5,24): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(10,13): error C2061: 구문 오류: 식별자 'string'
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(10,12): error C2535: 'Formation::Formation(void)': 멤버 함수를 이미 정의했거나 선언했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(9): message : 'Formation::Formation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(6,10): error C2061: 구문 오류: 식별자 'string'
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(6,9): error C2535: 'Player::Player(void)': 멤버 함수를 이미 정의했거나 선언했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(5): message : 'Player::Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(2,6): error C2182: 'InsertPlayer': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(2,19): error C2065: 'vector': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(2,26): error C2275: 'Player': 이 형식을 식으로 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(3): message : 'Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(2,35): error C2065: 'players': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(3,6): error C2182: 'DeletePlayer': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(3,19): error C2065: 'vector': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(3,26): error C2275: 'Player': 이 형식을 식으로 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(3): message : 'Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(3,35): error C2065: 'players': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(4,6): error C2182: 'EditPlayer': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(4,17): error C2065: 'vector': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(4,24): error C2275: 'Player': 이 형식을 식으로 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(3): message : 'Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(4,33): error C2065: 'players': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(5,33): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(5,33): error C2143: 구문 오류: ','이(가) '<' 앞에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(6,24): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(6,8): error C2146: 구문 오류: ';'이(가) 'GetValidPosition' 식별자 앞에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(9,6): error C2182: 'InsertFormation': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(9,22): error C2065: 'vector': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(9,29): error C2275: 'Formation': 이 형식을 식으로 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(3): message : 'Formation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(9,41): error C2065: 'formations': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(10,6): error C2182: 'DeleteFormation': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(10,22): error C2065: 'vector': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(10,29): error C2275: 'Formation': 이 형식을 식으로 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(3): message : 'Formation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(10,41): error C2065: 'formations': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(11,6): error C2182: 'EditFormation': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(11,20): error C2065: 'vector': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(11,27): error C2275: 'Formation': 이 형식을 식으로 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(3): message : 'Formation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(11,39): error C2065: 'formations': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(14,35): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(14,35): error C2143: 구문 오류: ','이(가) '<' 앞에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(21,39): error C2039: 'formation_name': 'Formation'의 멤버가 아닙니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(3): message : 'Formation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(30,6): error C2365: 'InsertFormation': 재정의: 이전 정의는 '데이터 변수'입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(9): message : 'InsertFormation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(31,10): error C2872: 'string': 모호한 기호입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(6,1): message : 'int string'일 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905,7): message : 또는       'std::string'
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(31,23): error C2872: 'string': 모호한 기호입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(6,1): message : 'int string'일 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905,7): message : 또는       'std::string'
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(31,10): error C2146: 구문 오류: ';'이(가) 'formationName' 식별자 앞에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(31,10): error C2065: 'formationName': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(33,10): error C2065: 'formationName': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(44,40): error C2065: 'formationName': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(57,6): error C2365: 'EditFormation': 재정의: 이전 정의는 '데이터 변수'입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(11): message : 'EditFormation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(68,37): error C2039: 'formation_name': 'Formation'의 멤버가 아닙니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(3): message : 'Formation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(94,6): error C2365: 'DeleteFormation': 재정의: 이전 정의는 '데이터 변수'입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(10): message : 'DeleteFormation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(110,6): error C2365: 'InsertPlayer': 재정의: 이전 정의는 '데이터 변수'입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(2): message : 'InsertPlayer' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(120,16): error C2039: 'name': 'Player'의 멤버가 아닙니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(3): message : 'Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(123,9): error C2039: 'pre_pos': 'Player'의 멤버가 아닙니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(3): message : 'Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(123,19): error C3861: 'GetValidPosition': 식별자를 찾을 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(124,9): error C2039: 'non_pre_pos': 'Player'의 멤버가 아닙니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(3): message : 'Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(124,23): error C3861: 'GetValidPosition': 식별자를 찾을 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(131,6): error C2365: 'DeletePlayer': 재정의: 이전 정의는 '데이터 변수'입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(3): message : 'DeletePlayer' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(146,6): error C2365: 'EditPlayer': 재정의: 이전 정의는 '데이터 변수'입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(4): message : 'EditPlayer' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(161,34): error C2039: 'name': 'Player'의 멤버가 아닙니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(3): message : 'Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(162,27): error C2039: 'pre_pos': 'Player'의 멤버가 아닙니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(3): message : 'Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(162,37): error C3861: 'GetValidPosition': 식별자를 찾을 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(163,27): error C2039: 'pre_pos': 'Player'의 멤버가 아닙니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(3): message : 'Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(163,37): error C3861: 'GetValidPosition': 식별자를 찾을 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(174,45): error C2039: 'name': 'Player'의 멤버가 아닙니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(3): message : 'Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(175,45): error C2039: 'pre_pos': 'Player'의 멤버가 아닙니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(3): message : 'Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(176,33): error C2039: 'non_pre_pos': 'Player'의 멤버가 아닙니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(3): message : 'Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(182,8): error C2872: 'string': 모호한 기호입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(6,1): message : 'int string'일 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905,7): message : 또는       'std::string'
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(182,24): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(182,1): error C2086: 'int string': 재정의
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(6): message : 'string' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(182,8): error C2146: 구문 오류: ';'이(가) 'GetValidPosition' 식별자 앞에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(182,47): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.cpp(182,47): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+  main.cpp
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(5,10): error C3646: 'formation_name': 알 수 없는 재정의 지정자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(5,24): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(10,13): error C2061: 구문 오류: 식별자 'string'
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(10,12): error C2535: 'Formation::Formation(void)': 멤버 함수를 이미 정의했거나 선언했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(9): message : 'Formation::Formation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(2,6): error C2182: 'InsertPlayer': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(2,19): error C2065: 'vector': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(2,26): error C2065: 'Player': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(2,35): error C2065: 'players': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(3,6): error C2182: 'DeletePlayer': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(3,19): error C2065: 'vector': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(3,26): error C2065: 'Player': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(3,35): error C2065: 'players': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(4,6): error C2182: 'EditPlayer': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(4,17): error C2065: 'vector': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(4,24): error C2065: 'Player': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(4,33): error C2065: 'players': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(5,33): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(5,33): error C2143: 구문 오류: ','이(가) '<' 앞에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(6,24): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(6,8): error C2146: 구문 오류: ';'이(가) 'GetValidPosition' 식별자 앞에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(9,6): error C2182: 'InsertFormation': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(9,22): error C2065: 'vector': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(9,29): error C2275: 'Formation': 이 형식을 식으로 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(3): message : 'Formation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(9,41): error C2065: 'formations': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(10,6): error C2182: 'DeleteFormation': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(10,22): error C2065: 'vector': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(10,29): error C2275: 'Formation': 이 형식을 식으로 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(3): message : 'Formation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(10,41): error C2065: 'formations': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(11,6): error C2182: 'EditFormation': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(11,20): error C2065: 'vector': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(11,27): error C2275: 'Formation': 이 형식을 식으로 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Formation.h(3): message : 'Formation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(11,39): error C2065: 'formations': 선언되지 않은 식별자입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(14,35): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(14,35): error C2143: 구문 오류: ','이(가) '<' 앞에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(6,10): error C2061: 구문 오류: 식별자 'string'
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(6,9): error C2535: 'Player::Player(void)': 멤버 함수를 이미 정의했거나 선언했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(5): message : 'Player::Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(19,29): error C2872: 'string': 모호한 기호입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(6,1): message : 'int string'일 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905,7): message : 또는       'std::string'
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(19,6): error C2182: 'loadPlayersInfo': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(19,6): error C2365: 'loadPlayersInfo': 재정의: 이전 정의는 '함수'입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(18): message : 'loadPlayersInfo' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(19,29): error C2146: 구문 오류: ')'이(가) 'filename' 식별자 앞에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(32,34): error C2664: 'void loadPlayersInfo(std::vector<Player,std::allocator<Player>> &)': 인수 1을(를) 'const char [14]'에서 'std::vector<Player,std::allocator<Player>> &'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(18,6): message : 'loadPlayersInfo' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(94,62): error C2440: '<function-style-cast>': 'initializer list'에서 'Player'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(94,62): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(95,59): error C2440: '<function-style-cast>': 'initializer list'에서 'Player'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(95,59): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(96,56): error C2440: '<function-style-cast>': 'initializer list'에서 'Player'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(96,56): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(97,59): error C2440: '<function-style-cast>': 'initializer list'에서 'Player'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(97,59): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(98,59): error C2440: '<function-style-cast>': 'initializer list'에서 'Player'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(98,59): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(99,59): error C2440: '<function-style-cast>': 'initializer list'에서 'Player'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(99,59): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(100,59): error C2440: '<function-style-cast>': 'initializer list'에서 'Player'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(100,59): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(101,59): error C2440: '<function-style-cast>': 'initializer list'에서 'Player'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(101,59): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(102,62): error C2440: '<function-style-cast>': 'initializer list'에서 'Player'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(102,62): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(110,29): error C2872: 'string': 모호한 기호입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(6,1): message : 'int string'일 수 있습니다.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\xstring(4905,7): message : 또는       'std::string'
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(110,6): error C2182: 'loadPlayersInfo': 'void' 형식을 잘못 사용했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(110,6): error C2365: 'loadPlayersInfo': 재정의: 이전 정의는 '함수'입니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(92): message : 'loadPlayersInfo' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(110,29): error C2146: 구문 오류: ')'이(가) 'filename' 식별자 앞에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(110,39): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(110,39): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(134,48): error C2440: '<function-style-cast>': 'initializer list'에서 'Formation'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(134,48): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(135,48): error C2440: '<function-style-cast>': 'initializer list'에서 'Formation'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(135,48): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(136,48): error C2440: '<function-style-cast>': 'initializer list'에서 'Formation'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(136,48): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(137,51): error C2440: '<function-style-cast>': 'initializer list'에서 'Formation'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(137,51): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(138,48): error C2440: '<function-style-cast>': 'initializer list'에서 'Formation'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(138,48): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(139,48): error C2440: '<function-style-cast>': 'initializer list'에서 'Formation'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(139,48): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(140,48): error C2440: '<function-style-cast>': 'initializer list'에서 'Formation'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(140,48): message : 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(152,25): error C2664: 'void GetInformation(const int)': 인수 1을(를) 'std::vector<Player,std::allocator<Player>>'에서 'const int'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(152,18): message : 이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(5,6): message : 'GetInformation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(167,7): error C2064: 항은 1개의 인수를 받아들이는 함수로 계산되지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(171,7): error C2064: 항은 1개의 인수를 받아들이는 함수로 계산되지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(175,7): error C2064: 항은 1개의 인수를 받아들이는 함수로 계산되지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(187,30): error C2664: 'void DisplayFormation(const int)': 인수 1을(를) 'std::vector<Formation,std::allocator<Formation>>'에서 'const int'(으)로 변환할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(187,20): message : 이 변환을 수행할 수 있는 사용 가능한 사용자 정의 변환 연산자가 없거나 연산자를 호출할 수 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\FunctionManager.h(14,6): message : 'DisplayFormation' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(202,7): error C2064: 항은 1개의 인수를 받아들이는 함수로 계산되지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(206,7): error C2064: 항은 1개의 인수를 받아들이는 함수로 계산되지 않습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\main.cpp(209,7): error C2064: 항은 1개의 인수를 받아들이는 함수로 계산되지 않습니다.
+  Player.cpp
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(6,10): error C2061: 구문 오류: 식별자 'string'
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(6,9): error C2535: 'Player::Player(void)': 멤버 함수를 이미 정의했거나 선언했습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(5): message : 'Player::Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.cpp(11,65): error C2511: 'Player::Player(std::string,std::string,std::string)': 오버로드된 멤버 함수가 'Player'에 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.h(3): message : 'Player' 선언을 참조하십시오.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.cpp(15,5): error C2671: 'Player::{ctor}': 정적 멤버 함수에 'this' 포인터가 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.cpp(18,3): error C2671: 'Player::{ctor}': 정적 멤버 함수에 'this' 포인터가 없습니다.
+C:\Users\182659\Desktop\cpp\TIL\cpp개인프로젝트\Project2\Player.cpp(19,3): error C2671: 'Player::{ctor}': 정적 멤버 함수에 'this' 포인터가 없습니다.
+  코드를 생성하고 있습니다...

@@ -139,17 +139,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FormationManager.cpp" />
+    <ClCompile Include="FunctionManager.cpp" />
+    <ClCompile Include="FunctionManager.h" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Formation.cpp" />
-    <ClCompile Include="PlayerManager.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FormationManager.h" />
-    <ClInclude Include="Player.h" />
     <ClInclude Include="Formation.h" />
-    <ClInclude Include="PlayerManger.h" />
+    <ClInclude Include="Player.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Blueveins.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
